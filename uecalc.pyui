@@ -1,0 +1,139 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 150}, {110, 200}}",
+        "class" : "DatePicker",
+        "attributes" : {
+          "mode" : 0,
+          "frame" : "{{6, 16}, {320, 216}}",
+          "action" : "dp_change",
+          "class" : "DatePicker",
+          "name" : "dp_start",
+          "uuid" : "4203CB3E-5992-47A3-9080-59F2C13C3798"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{259, 150}, {110, 200}}",
+        "class" : "DatePicker",
+        "attributes" : {
+          "mode" : 0,
+          "frame" : "{{6, 16}, {320, 216}}",
+          "action" : "dp_change",
+          "class" : "DatePicker",
+          "name" : "dp_end",
+          "uuid" : "2BDC51F3-D5B1-47D2-A8EF-3680613D6A7D"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{167, 175}, {40, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "btnpm",
+          "font_size" : 15,
+          "frame" : "{{126, 108}, {80, 32}}",
+          "title" : "Button",
+          "uuid" : "D4A7352D-ED99-4698-840D-40B34CDA4603",
+          "class" : "Button",
+          "name" : "btnp",
+          "image_name" : "iob:plus_circled_256"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{167, 285}, {40, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "btnpm",
+          "image_name" : "iob:minus_circled_256",
+          "frame" : "{{126, 108}, {80, 32}}",
+          "title" : "Button",
+          "uuid" : "D4A7352D-ED99-4698-840D-40B34CDA4603",
+          "class" : "Button",
+          "font_size" : 15,
+          "name" : "btnm"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 19}, {363, 62}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label1",
+          "frame" : "{{113, 318}, {150, 32}}",
+          "uuid" : "C8AB6589-9A70-4A21-8140-4E8B6CA1EE00",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "UE calc",
+          "font_size" : 41,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{124, 225}, {127, 50}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 30,
+          "frame" : "{{87, 318}, {200, 32}}",
+          "spellchecking_type" : "no",
+          "class" : "TextField",
+          "uuid" : "D12FF6E3-50AB-443D-9B64-890AD4C84F6A",
+          "alignment" : "center",
+          "text" : "0",
+          "autocorrection_type" : "no",
+          "name" : "txt_ue",
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 89}, {363, 45}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "action" : "sc_change",
+          "flex" : "LR",
+          "segments" : "45|50",
+          "frame" : "{{128, 319}, {120, 29}}",
+          "uuid" : "20B34382-6BB4-471D-812E-630F2FBEFFE3",
+          "class" : "SegmentedControl",
+          "name" : "sc_minutes"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {375, 667}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
